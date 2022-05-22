@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+.hero{
+    background-image: url("images/jakarta.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img {
+    width: 100px;
+    border-radius:80%;
+}
+#activities{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
