@@ -1,10 +1,10 @@
-body {
+    body {
     margin: 0;
     text-align: center;
 }
 .hero{
     background-image: url("images/jakarta.jpg");
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: cover;
 }
 img {
@@ -18,3 +18,26 @@ img {
     align-items: center;
     text-align: center;
 }
+
+#guide{
+    width: 200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: #2B3137;
+    color: #C5BAAF;
+    border-bottom: 6px solid #A95953;
+    border-radius: 20px;
+    background-color: #7F5560;
+    animation-name: guide;
+    animation-duration: 4s; 
+    animation-iteration-count: 2; 
+}
+
+@keyframes guide {
+    0%   {background-color: #08988A;}
+    25%  {background-color: #EC1D1A;}
+    50%  {background-color: #E60201;}
+    100% {background-color: #34A498;}
