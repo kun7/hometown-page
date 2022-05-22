@@ -4,7 +4,7 @@
 }
 .hero{
     background-image: url("images/jakarta.jpg");
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-size: cover;
 }
 img {
@@ -41,3 +41,4 @@ img {
     25%  {background-color: #EC1D1A;}
     50%  {background-color: #E60201;}
     100% {background-color: #34A498;}
+}
