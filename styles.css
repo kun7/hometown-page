@@ -4,17 +4,22 @@
 }
 .hero{
     background-image: url("images/jakarta.webp");
-    background-repeat: no-repeat;
+    width: auto;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(134, 96, 37);
 }
 img {
     width: 100px;
     border-radius:80%;
+    border:3px solid rgb(77, 199, 77);
 }
 #activities{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
 }
@@ -43,18 +48,7 @@ img {
     100% {background-color: #34A498;}
 }
 
-.tamenteng {
-    margin-left: 80px;
-}
 
-.tamdya {
-    margin-right: 200px;
-}
-
-.tebco{
-    margin-right: 80px;
-}
-
-h3:hover {
+a:hover {
     color:#2B3137;
 }
