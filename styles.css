@@ -24,6 +24,16 @@ img {
     text-align: center;
 }
 
+#activities a {
+    padding:15px 25px;
+    display: inline-block;
+    padding: 12px 25px;
+    background: rgb(64, 179, 64);
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 #guide{
     width: 200px;
     margin: 0 auto;
@@ -49,6 +59,6 @@ img {
 }
 
 
-a:hover {
-    color:#2B3137;
+#activities a:hover {
+    background-color:#1f2429;
 }
