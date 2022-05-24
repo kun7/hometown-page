@@ -30,6 +30,23 @@ img {
     text-align: center;
 }
 
+.section-one, .section-two, .section-three, .guide {
+    padding:50px;
+}
+.section-one {
+    background:#A0EEC0;
+}
+
+.section-two {
+    background:#8AE9C1;
+    
+}
+.section-three {
+    background: #86CD82;
+}
+.guide {
+    background: #72A276;
+}
 #activities a {
     padding:15px 25px;
     display: inline-block;
