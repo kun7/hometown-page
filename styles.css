@@ -6,16 +6,16 @@ body {
 /* layout */
 .hero{
     background-image: url("images/jakarta.webp");
-    width: auto;
-    background-size: cover;
+    background-size: cover; 
+    background-position: top center;
     display: flex;
     flex-direction: column;
     padding:100px;
 }
 .text{
-    padding:6px 15px;
+    padding:3px 15px;
     background-color: #08988A;
-    color: rgb(68, 59, 47);
+    color: rgb(31, 29, 28);
 }
 img {
     width: 100px;
