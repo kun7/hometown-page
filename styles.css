@@ -7,19 +7,22 @@ body {
 .hero{
     background-image: url("images/jakarta.webp");
     background-size: cover; 
+    background-color: #404040;
     background-position: top center;
     display: flex;
     flex-direction: column;
-    padding:100px;
+    padding: 10em;
 }
 .text{
-    padding:3px 15px;
-    background-color: #08988A;
-    color: rgb(31, 29, 28);
+    padding:0.1em 0.1em;
+    background: #08988A;
+    color: rgb(94, 35, 6);
+    display: flex;
+    flex-direction: column;
 }
 img {
     width: 100px;
-    border-radius:80%;
+    border-radius:50%;
     border:3px solid rgb(77, 199, 77);
 }
 #activities{
@@ -82,6 +85,7 @@ img {
 }
 
 
-#activities a:hover {
+#activities a:hover,
+#activities a:active {
     background-color:#1f2429;
 }
